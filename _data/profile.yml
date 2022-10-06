@@ -1,19 +1,24 @@
 image: assets/img/smile.png
 username: Zeb Goriely
-description: Director, Editor and Content Creator
+description: "I'm a filmmaker with experience <b> directing, shooting, producing and editing</b> student-made short films.
+On my Youtube channel, I've posted over 100 nostalgic films of my day-to-day life.
+Currently, I am the <b>Head of Operations</b> for <i>[Watersprite](https://www.watersprite.org.uk/)</i>, the second-largest student film festival in the world.
+\n\n
+For my academic work, click [here](https://research.sitebyzeb.com)."
+
 webpage: http://film.sitebyzeb.com
-experience: # Remove for hiding the experience section
-  - start: 2021
-    end: 2025
-    experience : University of Cambridge, PhD in Computer Science
-  - start: 2017
-    end: 2021
-    experience : University of Cambridge, B.A + M.Eng (Hons) in Computer Science
-interests: # Remove for hiding the interests section
-  - Child Language Acquisition
-  - Artificial Neural Networks
-  - Morphology
-  - Word Segmentation
+# experience: # Remove for hiding the experience section
+#   - start: 2021
+#     end: 2025
+#     experience : University of Cambridge, PhD in Computer Science
+#   - start: 2017
+#     end: 2021
+#     experience : University of Cambridge, B.A + M.Eng (Hons) in Computer Science
+# interests: # Remove for hiding the interests section
+#   - Child Language Acquisition
+#   - Artificial Neural Networks
+#   - Morphology
+#   - Word Segmentation
 #skills: # Remove for hiding the skills section
 #  - skill: HTML5 & CSS
 #    value: 85  # Percent value
