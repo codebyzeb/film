@@ -52,9 +52,9 @@
           position: relative;
           overflow: hidden;
           height: 200px;
-          @media (max-width: 576px) {
+          /*@media (max-width: 576px) {
             display: none;
-          }
+          }*/
           img {
             width: 100%;
             height: 200px;
@@ -98,7 +98,7 @@
         .icons{
           margin-bottom: 20px;
           padding-right: 25px;
-            float: right;
+          float: right;
             a {
               margin-left: 8px;
               text-align: center;
@@ -110,11 +110,21 @@
                 font-size: 0.8rem;
                 line-height: 1.8rem;
               }
+              &:hover {
+                background-color: #fff;
+                color: $theme-dark;
+              }
+            modal-btn {
+              i {
+                background-color: $theme-dark;
+                color: #fff;
+                font-size: 0.75rem;
+                &:hover {
+                  background-color: #fff;
+                  color: $theme-dark;
+                }
+              }
             }
-            a.modal-btn i {
-              background-color: $theme-dark;
-              color: #fff;
-              font-size: 0.75rem;
             }
         }
       }
@@ -133,14 +143,12 @@
               -ms-transition-duration: 0.5s;
               -o-transition-duration: 0.5s;
               transition-duration: 0.5s;
-              background-color: $theme-color;
-              color: #fff;
-            }
-          }
-          a:hover {
-            i {
               background-color: $theme-dark;
               color: #fff;
+              &:hover {
+                  background-color: $theme-bright;
+                  color: $theme-color;
+                }
             }
           }
         }

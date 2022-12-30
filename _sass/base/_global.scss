@@ -1,6 +1,7 @@
 *{
 	-webkit-text-size-adjust:none;
-	font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+	/* font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif'; */
+	font-family: 'Helvetica Neue';
 	box-sizing: border-box;
 }
 html, body{height:100%;}
@@ -24,7 +25,7 @@ time, mark, audio, video {
 	border: 0;
 	vertical-align: baseline;
 	word-break: keep-all;
-	font-size: 1.05rem;
+	font-size: 1.0rem;
 	line-height: 1.5em;
 }
 /* HTML5 display-role reset for older browsers */
@@ -58,7 +59,7 @@ h6 {
 	font-size : 1.05rem;
 }
 p{
-	margin: 5px 0;
+	margin: 10px 0;
 }
 @media (max-width: 576px){
 	h1 {
@@ -83,12 +84,29 @@ p{
 		font-size : 0.9rem;
 	}
 }
-ol, ul {
+ol {
+	list-style-type: decimal;
+    list-style-position: inside;
+	li { font-size: 15px; }
+}
+ul {
+	list-style-type: disc;
+    list-style-position: inside;
 	li { font-size: 15px; }
 }
 a:link, a:visited, a:active, a:hover {
 	text-decoration: none; 
 	color: $text;
+}
+p, ol, ul {
+	a:link, a:visited, a:active {
+		text-decoration: none; 
+		color: $theme-dark2;
+	}
+	a:hover {
+		text-decoration: none; 
+		color: $theme-color;
+	}
 }
 .container{
 	padding-top: 30px;
@@ -168,6 +186,11 @@ a:link, a:visited, a:active, a:hover {
 		}
 	}
 
+}
+.frame{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
 }
 a.btn  {
 		color: $theme-dark;

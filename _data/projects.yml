@@ -1,42 +1,327 @@
-# - project :
-#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-#     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
-#     image:
-#       path: "portfolio.png" # path: assets/project/
-#       alt: "A screenshot of the portfolio page"
-#     date: 05/2022 &ndash; Developing
-#     title: Grape-Theme
-#     summary: Academic portfolio jekyll theme.
-#     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
-#     contents:
-#         - title: 1. Portfolio Page
-#           image:
-#             path: portfolio.png
-#             alt: "A screenshot of the portfolio page"
-#           description: <li>Concise portfolio page</li>
-#             <li>Recent publications</li>
-#             <li>Projects</li>
-#         - title: 2. Optional Blog Functionality
-#           image:
-#             path: home.png
-#             alt: "A screenshot of the blog page"
-#           description: <li>Responsive Layout</li>
-#             <li>Tags</li> 
-#             <li>Pagination</li>
-#         - title: 3. Tags Page
-#           image:
-#             path: tags.png
-#             alt: "A screenshot of the tags page"
-#           description: <li>Responsive Layout</li> 
-#             <li>Tags</li> 
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - SHORT FILMS
+      - FEATURED PROJECTS
+    url: https://www.youtube.com/watch?v=Ze4gyaCrVAA
+    image:
+      path: convalescence/convalescence.png
+      alt: "The poster for the short film 'Convalescence'"
+    date: 03/21 – Short Film – Director/Producer/Editor
+    title: Convalescence
+    summary: <p><i> Recovering from a mysterious accident, Joss seals himself off from the world, turning to astronomy and living out his life in an observatory. But when he makes an important discovery, his perceptions of reality, and his own past, begin to change into something he can hardly recognise.
+      
+      <br> <br> Convalescence is a voyage into the unknown - whether it be through a telescope or under our very noses. </i> </p>
+    description: My first short film. Written by Benedict Mulcare in 2019, shot in 2019 and completed in 2021. 
+    contents:
+        - title: 1. Portfolio Page
+          image:
+            path: portfolio.png
+            alt: "A screenshot of the portfolio page"
+          description: <li>Concise portfolio page</li>
+            <li>Recent publications</li>
+            <li>Projects</li>
+        - title: Cast & Crew
+          image:
+            path: home.png
+            alt: "A screenshot of the blog page"
+          description: <li>Responsive Layout</li>
+            <li>Tags</li> 
+            <li>Pagination</li>
+        - title: 3. Tags Page
+          image:
+            path: tags.png
+            alt: "A screenshot of the tags page"
+          description: <li>Responsive Layout</li> 
+            <li>Tags</li> 
 
-# - project:
-#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-#     url:  # Full URL
-#     image: # path: assets/project/
-#     date: 06/2019 &ndash; Developing
-#     title: Dummy project
-#     summary: This is a Dummy
-#     description:  
+- project:
+    print: True
+    modal: False
+    sections: 
+      - SHORT FILMS
+      - FEATURED PROJECTS
+    # url: True
+    image:
+      path: unwell_woman/title.png
+      alt: "The title card for the short film 'Unwell Woman'"
+    date: In Development – Short Film – Cinematographer/Editor
+    title: Unwell Woman
+    summary: <p><i> </i> </p>
+    description: Directed and written by Daniella DeVinter, shot in 2022. 
+    contents:
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - YOUTUBE
+    url: https://www.youtube.com/watch?v=CuYR5CXAeGA
+    image:
+      path: game_of_life/gameoflife.jpg
+      alt: "The thumbnail for the youtube video 'The Game of Life: The Simulation That Can Do Anything'"
+    date: 05/20 – Youtube Video - Creator
+    title: "The Game of Life: The Simulation That Can Do Anything"
+    summary: <p><i> </i> </p>
+    description: An educational Youtube video about Conway's Game of Life created for the StudyTube Project during the pandemic. Informative and fun, with an emotional twist.
+    contents:
+
+- project:
+    print: True 
+    modal: True 
+    sections: 
+      - FEATURED PROJECTS
+    url: https://www.tiktok.com/@tokbyzeb/video/7058690677634256134?is_from_webapp=1&sender_device=pc&web_id=7033121612880004613
+    image:
+      path: wordle/wordle.jpeg
+      alt: "Three screenshots from the tiktok'"
+    date: 01/22 – Tiktok Video – Creator
+    title: Viral Wordle Tiktok
+    description: A viral TikTok video (1.3M views) in which I present a program that I wrote to solve Wordle, the viral puzzle game. 
+    summary: Can you always win Wordle?
+    contents:
+      - title: Going viral on Tiktok
+        description: While procrastinating from my PhD, I got carried away and spent a day writing [a program](https://github.com/codebyzeb/wordleguesser) to find the best first word in Wordle. This was in January 2022, when the wordle craze was at an all-time high. A few days later, I saw people were making TikToks about their best first words and so I decided to hop on the trend with the help of my little program. The video went viral and now has over 1.3M views! 
+
+
+          I think the virality was due to a combination of good timing, high engagement (lots of comments from people telling me _their_ favourite first word) and an interesting concept! I also got 2500 followers, more than I'd ever managed to get on Youtube. It was amazing to see people get excited about how Computer Science and Linguistics can be applied to solve this puzzle :)
+      - title: Follow-up videos
+        image: 
+          path: wordle/followup.png
+          alt: "A screenshot from one of the follow-up tiktoks"
+        description: "After the success of the first video, I made a few follow-ups to answer comments and go deeper into how my program worked. You can watch them here:\n
+          - [The best second word in Wordle](https://www.tiktok.com/@tokbyzeb/video/7058961608122322182?is_from_webapp=1&sender_device=pc&web_id=7033121612880004613)\n
+          - [The maths behind my program](https://www.tiktok.com/@tokbyzeb/video/\n7058985754348866821?is_from_webapp=1&sender_device=pc&web_id=7033121612880004613)\n
+          - [A better pair of two words](https://www.tiktok.com/@tokbyzeb/video/\n7058985754348866821?is_from_webapp=1&sender_device=pc&web_id=7033121612880004613)\n
+          - [Answering frequently-asked questions](https://www.tiktok.com/@tokbyzeb/video/7059353810086497542?is_from_webapp=1&sender_device=pc&web_id=7033121612880004613)
+        "
+      - title: Articles about the video
+        image: 
+            path: wordle/independent.png
+            alt: "A screenshot of the Indpendent article about my tiktok"
+        description: "There were also a few articles (and even a podcast story) refering to my video, which you can read/listen to here:\n
+          - [Podcast story](https://soundcloud.com/mackenzie_coffman/what-i-learned-about-myself-while-playing-wordle-1?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing)\n
+          - [Yahoo News](https://www.yahoo.com/lifestyle/ph-d-student-wrote-computer-204420533.html?guccounter=2&guce_referrer=aHR0cHM6Ly93d3cubGlua2VkaW4uY29tLw&guce_referrer_sig=AQAAAJpVly7Rg2Q6eNcOiIPvH8ttzUE20PCbU5EZdiDJv3471sPQvKF7lN-7MN2GEV036zqRpIrA5NXyPc3xDEhIZ9mfhQMtVUSOJbQCed7cVa-WjkrwPL9GUtMZa6Q3tpV1AJuCrRdJLuX_GVUOeJSM15PCOuUNw45UfJX6w0deeH77)\n
+          - [Independent](https://www.independent.co.uk/life-style/wordle-first-word-program-b2006070.html)\n
+          - [Saga](https://www.saga.co.uk/magazine/technology/internet/browsing/wordle-fun-word-game)\n
+          - [Shiny Shiny](https://www.shinyshiny.tv/2022/02/irate-is-tiktok-language-experts-recommended-wordle-starter-word.html)\n
+          - [Yorkshire Post](https://www.yorkshirepost.co.uk/business/consumer/how-to-win-at-wordle-these-are-the-best-words-to-use-for-the-best-results-according-to-linguistic-experts-3550743)
+          "
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - NON FICTION
+      - PAID CREATIONS
+    url: https://youtu.be/d7TDJWzLqo8
+    image:
+      path: computer_science/computer_science.jpg
+      alt: "The thumbnail for the video"
+    date: 12/19 – Factual Video – Creator
+    title: "Studying computer science at Cambridge University"
+    description: A short piece about studying Computer Science at Cambridge University. I was paid to create this video by the Computer Science Department.
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - NON FICTION
+      - PAID CREATIONS
+    url: https://youtu.be/TJV_OvF0dVM
+    image:
+      path: active_badge/badge.png
+      alt: "A still from the video"
+    date: 09/21 – Factual Video – Creator
+    title: "Sensors: from location tracking to mobile health monitoring"
+    description: A short piece about the Active Badge system pioneered by Dr. Andy Hopper (FRS). I was paid to create this video by the Computer Science Department in Cambridge.
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: True 
+    sections: 
+      - SHORT FILMS
+      - FEATURED PROJECTS
+    url: https://youtu.be/Q4ztM12htfU
+    image:
+      path: stay_with_me/1.png
+      alt: "A still from the short film 'Stay With Me'"
+    date: 02/22 – Short Film – Editor
+    title: "Stay With Me"
+    description: A short film written and directed by Adedamola Laoye. It was created for the Film at Jesus Competition, which it won. I edited the film and also managed the lighting and sound during the shoot.
+    summary: <p><i> Stay with me is an exploration of masculinity, identity, and the relationship between a father and his son. Told from the perspective of the son who delivers a compelling recount of the first conversation he ever had with his dad. In this raw and intimate story, where the son reveals childhood milestones he achieved without his father, up until the moment he stands face to face with the man wearing a shirt he didn’t look comfortable in, avoiding his gaze. </i> </p>
+    contents:
+      - title: Synopsis
+        image:
+          path: stay_with_me/2.png
+          alt: "A still from the short film 'Stay With Me'"
+        description: "*Stay With Me* is an exploration of masculinity, identity, and the relationship between a father and his son. Told from the perspective of the son who delivers a compelling recount of the first conversation he ever had with his dad. In this raw and intimate story, where the son reveals childhood milestones he achieved without his father, up until the moment he stands face to face with the man wearing a shirt he didn’t look comfortable in, avoiding his gaze."
+      - title: Project details
+        image:
+          path: stay_with_me/3.png
+          alt: "A still from the short film 'Stay With Me'"
+        description: This film was created as an entry to the Film at Jesus Competition. It was written and directed by Adedamola Laoye, who also plays the protagonist. We shot it in a few hours at the Corpus Playroom in Cambridge using a camera on a gimble for most of the shots (cinematography by Jedrek Koh Wei Ze). I recorded the sound and used the theatre lights to light the shoot, as well as help to come up with the shots (in collaboration with everyone else). 
+          The film won in its category and overall and was later selected for both [Downing Shorts](https://www.dow.cam.ac.uk/events/downing-shorts-film-festival) and the [Mono Box Short Film Showcase](https://www.instagram.com/p/Cgbwbw_IyZ8/?igshid=YmMyMTA2M2Y=).
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - SHORT FILMS
+    url: https://youtu.be/nvqR_Hb9d70
+    image:
+      path: guardian/1.png
+      alt: "A still from the short film 'Stay With Me'"
+    date: 02/22 – Short Film – Cinematographer / Editor
+    title: "My Guardian Angel"
+    description: A short film written and directed by Jay Ayliffe. It was screened at the Downing Shorts Film Festival.
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - PAID CREATIONS
+    url: https://www.instagram.com/tv/B9zu4emngjh/?utm_source=ig_web_copy_link
+    image:
+      path: hannibal/rapping.png
+      alt: "A still from the video"
+    date: 08/20 – Podcadst Highlights – Editor
+    title: "Hannibal Buress Freestyle Rapping"
+    description: A highlight reel of Hannibal Buress freestyle rapping in his podcast that I was hired to edit. He got in touch with me after seeing my entry to the Super Patron Award (he was a juror). 
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - NON FICTION
+    url: https://fb.watch/hJe3GlfY6M/
+    image:
+      path: invisible/invisible.png
+      alt: "A still from the video"
+    date: 11/18 – Factual Video – Producer / Cinematographer / Editor
+    title: "Invisible Disability and Me"
+    description: A factual piece about students with invisible disabilities. It was created for Varsity, the student newspaper. 
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - NON FICTION
+    url: https://fb.watch/hJeCe6WJ3k/
+    image:
+      path: arts/arts.png
+      alt: "A still from the video"
+    date: 03/19 – Factual Video – Producer / Cinematographer / Editor
+    title: "Queens' Arts Festival Preview"
+    description: A factual piece interviewing student artists ahead of the Queens' Arts Festival in 2018. It was created for Varsity, the student newspaper. 
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - NON FICTION
+    url: https://fb.watch/hJeSUJrEMp/
+    image:
+      path: divestment/divestment.png
+      alt: "A still from the video"
+    date: 03/19 – Factual Video – Animator / Cinematographer / Editor
+    title: "Explained: Divestment working group conflict of interest"
+    description: A factual piece about the divestment scandal at Cambridge University. It was created for Varsity, the student newspaper. 
+    summary: <p><i>  </i> </p>
+
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - NON FICTION
+      - PAID CREATIONS
+    url: https://youtube.com/playlist?list=PLBfZZ-MMyiDZMiEzK9Z1R9o6TKt_PfLDb
+    image:
+      path: queens/queens.png
+      alt: "The thumbnail for the 'life at queens' video"
+    date: 04/19–09/20 – Factual Videos – Creator
+    title: "40 videos created for Queens' College Cambridge"
+    description: A series of videos that I was paid to create for Queens' College. The videos interview current students, tour the college, help with admissions interviews and give advice to students applying to the college. 
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - YOUTUBE
+    url: https://youtube.com/playlist?list=PLBfZZ-MMyiDYjwdtJ0MY3vmuETGNvz37k
+    image:
+      path: 2021/october3.png
+      alt: "The thumbnail for the 'the paradox of trying to be real' video"
+    date: 2021-2022 – Youtube Playlist – Creator
+    title: "Best of FilmByZeb 2021/2022"
+    description: The best videos that I made for my Youtube channel in 2021 and 2022. During the pandemic I released fewer videos but they were generally more ambitious and more cinematic.
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - YOUTUBE
+    url: https://youtube.com/playlist?list=PLBfZZ-MMyiDad2YutR-xbRMFEltlKA02E
+    image:
+      path: 2020/1-2019.jpg
+      alt: "The thumbnail for the 'old year, old me' video"
+    date: 2020 – Youtube Playlist – Creator
+    title: "Best of FilmByZeb 2020"
+    description: The best videos that I made for my Youtube channel in 2020. A mix of reflective videos created before and during the pandemic.
+    summary: <p><i>  </i> </p>
+
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - YOUTUBE
+    url: https://youtube.com/playlist?list=PLBfZZ-MMyiDa9o-v4fpT4NtffnAz29Axt
+    image:
+      path: 2019/mind.png
+      alt: "The thumbnail for the 'Day in the Mind' short film"
+    date: 2019 – Youtube Playlist – Creator
+    title: "Best of FilmByZeb 2019"
+    description: The best videos that I made for my Youtube channel in 2019 including vlogs, animations, reflective films and montages.
+    summary: <p><i>  </i> </p>
+
+        
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - YOUTUBE
+    url: https://youtube.com/playlist?list=PLBfZZ-MMyiDZ0w2Vlhk-DumP8WW2_F0U6
+    image:
+      path: 2018/memories.png
+      alt: "The thumbnail for the 'My Memories are Corrupted' video"
+    date: 2018 – Youtube Playlist – Creator
+    title: "Best of FilmByZeb 2018"
+    description: The best videos that I made for my Youtube channel in 2018 including my monthly series of vlogs, experimental short films and early reflections.
+    summary: <p><i>  </i> </p>
+     
+        
+- project:
+    print: True 
+    modal: False 
+    sections: 
+      - YOUTUBE
+    url: https://youtube.com/playlist?list=PLBfZZ-MMyiDbchPoYs9AVF3RC1lT1KepZ
+    image:
+      path: 2017/ditl.png
+      alt: "The thumbnail for the '90 seconds of Cambridge Life' video"
+    date: 2017 – Youtube Playlist – Creator
+    title: "Best of FilmByZeb 2017"
+    description: The best videos that I made for my Youtube channel in 2017 including the very first vlogs I made, my first attempts at visual story-telling and clear progression in my editing abilities.
+    summary: <p><i>  </i> </p>
+
+        

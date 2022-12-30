@@ -7,7 +7,7 @@
     <div class="header">
       <p class="date">{{ project.date }}</p>
       <p class="title">{{ project.title }}</p>
-      <p class="summary">{{ project.summary }}</p>
+      <p class="summary">{{ project.summary | markdownify }}</p>
     </div>
     <div class="content">
       {% if project.image %}
@@ -20,7 +20,7 @@
         {% if content.image %}
           <img src="{{ content.image.path | prepend: '/assets/project/' | relative_url }}" alt="{{ content.image.alt }}">
         {% endif %}
-        <div class="description">{{ content.description }}</div>
+        <div class="description">{{ content.description | markdownify}}</div>
       </div>
       {% endfor %}
     </div>

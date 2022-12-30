@@ -1,10 +1,14 @@
 <section id="project">
   <div class="project-wrap">
-    <p class="title">{{ site.theme_settings.projects_title }}</p>
+    {% for title in site.theme_settings.projects_title %}
+    <p class="title">{{ title }}</p>
     <div class="card-container">
       {% for _ in site.data.projects %}
       {% assign project = _.project %}
       {% assign id = id | plus: 1 %}
+      {% if project.sections %}
+      {% for section in project.sections %}
+      {% if section == title %}
       <div class="card-wrapper">
         <div class="card">
           {% if project.image %}
@@ -25,6 +29,8 @@
               {% endfor %}
               {% endif %}
             </div>
+            <div class="meta">
+            </div>
             <div class="description">{{ project.description }}</div>
           </div>
           <div class="icons">
@@ -43,8 +49,12 @@
       {% include modal.html %}
       {% endif %}
       <!-- Modal Box -->
+      {% endif %}
+      {% endfor %}
+      {% endif %}
       {% endfor %}
     </div>
+    {% endfor %}
   </div>
   <div class="bg"></div>
 </section>

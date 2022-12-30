@@ -6,7 +6,7 @@ baseurl: ""
 # Turn subpages on or off
 publications: False
 presentations: False
-blog: False
+blog: True
 
 # Language of the website
 lang: en
@@ -36,7 +36,12 @@ theme_settings:
   interests_title: RESEARCH INTERESTS
   skills_title: SKILLS
   awards_title: AWARDS
-  projects_title: PROJECTS
+  projects_title:
+    - FEATURED PROJECTS
+    - SHORT FILMS
+    - YOUTUBE
+    - NON FICTION
+    - PAID CREATIONS
   recentpubs_title: RECENT PUBLICATIONS
 
 # Pagination
